@@ -9,6 +9,9 @@ public class GameTracker : MonoBehaviour
     public bool hasMedkit;
     public bool hasDanPapers;
     public bool hasPapers;
+    public bool hasCode;
+    public bool hasFuse;
+    public bool hasCrowbar;
 
     // Start is called before the first frame update
     void Start()
@@ -20,5 +23,9 @@ public class GameTracker : MonoBehaviour
     void Update()
     {
         
+    }
+     public void moveRoom()
+    {
+
     }
 }
