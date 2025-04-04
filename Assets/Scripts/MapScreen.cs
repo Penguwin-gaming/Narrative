@@ -39,10 +39,26 @@ public class MapScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void BringUpScreen()
+    {
+        mapScreen.gameObject.SetActive(!mapScreen.gameObject.activeInHierarchy);
+        roomIconStart.gameObject.SetActive(!roomIconStart.gameObject.activeInHierarchy);
+        roomIconHall1.gameObject.SetActive(!roomIconHall1.gameObject.activeInHierarchy);
+        roomIconHall2.gameObject.SetActive(!roomIconHall2.gameObject.activeInHierarchy);
+        roomIconHall3.gameObject.SetActive(!roomIconHall3.gameObject.activeInHierarchy);
+        roomIconLocker.gameObject.SetActive(!roomIconLocker.gameObject.activeInHierarchy);
+        roomIconLight.gameObject.SetActive(!roomIconLight.gameObject.activeInHierarchy);
+        roomIconBreaker.gameObject.SetActive(!roomIconBreaker.gameObject.activeInHierarchy);
+        roomIconDirty.gameObject.SetActive(!roomIconDirty.gameObject.activeInHierarchy);
+        roomIconDan.gameObject.SetActive(!roomIconDan.gameObject.activeInHierarchy);
+        roomIconMary.gameObject.SetActive(!roomIconMary.gameObject.activeInHierarchy);
+        roomIconElevator.gameObject.SetActive(!roomIconElevator.gameObject.activeInHierarchy);
+        roomIconLab.gameObject.SetActive(!roomIconLab.gameObject.activeInHierarchy);
+    }
+    public void ChangedRoom()
     {
         mapScreen.gameObject.SetActive(!mapScreen.gameObject.activeInHierarchy);
         roomIconStart.gameObject.SetActive(!roomIconStart.gameObject.activeInHierarchy);
