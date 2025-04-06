@@ -24,7 +24,6 @@ public class GameTracker : MonoBehaviour
     public GameObject Mary;
     public GameObject Elevator;
     public GameObject Lab;
-    public GameObject[] Icons;
     public GameObject mapScreen;
 
     // Start is called before the first frame update
