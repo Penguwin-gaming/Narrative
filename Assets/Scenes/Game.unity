@@ -3875,19 +3875,6 @@ MonoBehaviour:
   Mary: {fileID: 1996577891}
   Elevator: {fileID: 4564131}
   Lab: {fileID: 2111446335}
-  Icons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   mapScreen: {fileID: 50824680}
 --- !u!1 &2056241152
 GameObject:
