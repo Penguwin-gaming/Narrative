@@ -5,13 +5,14 @@ using UnityEngine;
 public class GameTracker : MonoBehaviour
 {
     public int location;
-    public bool hasGun;
     public bool hasMedkit;
-    public bool hasDanPapers;
-    public bool hasPapers;
+    public bool hasCure;
     public bool hasCode;
     public bool hasFuse;
-    public bool hasCrowbar;
+    public bool hasKey;
+    public bool hasDan;
+    public bool hasMary;
+    public bool powerIsOn;
     public GameObject starting;
     public GameObject hall1;
     public GameObject Hall2;
