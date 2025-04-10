@@ -8,11 +8,13 @@ public class GameTracker : MonoBehaviour
     public bool hasMedkit;
     public bool hasCure;
     public bool hasCode;
+    public bool lockerOpen;
     public bool hasFuse;
     public bool hasKey;
     public bool hasDan;
     public bool hasMary;
     public bool powerIsOn;
+    public bool canEscape;
     public GameObject starting;
     public GameObject hall1;
     public GameObject Hall2;
